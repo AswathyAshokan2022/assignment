@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .Frame{
+            border:3px solid black;
+            width: 30%;
+            height: 380px;
+            padding: 25px;
+            background-color : #363431;
+        }
+        .screen{
+            width: 80%;
+            padding: 25px;
+            border: 2px solid black;
+            text-align: end;
+        }
+        .key{
+            size: 20px;
+            padding: 10px;
+            margin: 10px;
+            width: 50px;
+        }
+        .key-sum1{
+            size: 20px;
+            padding: 10px;
+            margin-top: 0px;
+            width: 50px;           
+            height: 50px;
+            margin: 10px;
+            width: 275px;
+            background-color: #289c8c;
+            
+        }
+        .key-sum{
+            display: flex;
+            align-items: flex-end;
+            position: relative;
+            
+        }
+        .cal-key{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-left: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="Frame">
+            <div>
+                <input type="text" class="screen" name="" placeholder="0">               
+            </div>
+            <div class="cal-key">
+            <button type="button" class="key" value="C" >C</button >
+            <button type="button" class="key">%</button>
+            <button type="button" class="key">-</button>
+            <button type="button" class="key">/</button><br>
+            <button type="button" class="key">7</button>
+            <button type="button" class="key">8</button>
+            <button type="button" class="key">9</button>
+            <button type="button" class="key">*</button><br>
+            <button type="button" class="key">4</button>
+            <button type="button" class="key">5</button>
+            <button type="button" class="key">6</button> 
+            <button type="button" class="key">+</button><br>
+            <button type="button" class="key">1</button>
+            <button type="button" class="key">2</button>
+            <button type="button" class="key">3</button>
+            <button type="button" class="key">.</button>
+            <button class="key-sum1"  type="button">=</button>
+        </div>
+              
+            </div>
+                
+    </div>
+    
+</body>
+</html>
